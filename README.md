@@ -10,7 +10,7 @@ In this project, I have built a simple, custom image classifier that can be trai
 
 3. Then, show any object/gesture to the webcam. Simultaneously, click on the appropriate "Add" button which specifies the class that the input image belongs to (Here, I have considered A, B and C for simplicity). Each time you click one of the "Add" buttons, one image will be added to that class as a training example. Do the same for different objects with different classes.
 
-4. While you perform this series of activities, eventually, the models learns how to classify and it makes predictions on the webcam images coming in and shows the results (classification as well as the highest probability) in real-time.
+4. While you perform this series of activities, eventually, the model learns how to classify images and it makes predictions on the webcam images coming in and shows the results (classification as well as the highest probability) in real-time.
 
 
 
