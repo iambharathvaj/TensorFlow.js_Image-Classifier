@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <!-- Load v2.0.2 of pre-trained MobileNet model-->
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <!-- Adding k-NN classifier to categorize the webcam images-->
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <h2>TensorFlow.js Image Classification - Real-time Demo</h2>
+    <div id="console"></div>
+    <!-- Setting up the webcam to make predictions on images that come through the webcam -->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <!-- Buttons to add training images to the model-->
+    <br>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
